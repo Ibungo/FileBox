@@ -1,0 +1,237 @@
+   	html, body {
+		position: absolute;
+		height: 100%;
+	    width: 100%;	
+		margin: 0px;
+        padding: 0px;
+        font: 13px/1.4em Helvetica, Arial, sans-serif;
+	}
+
+	.header-bar{
+		height: 81px;
+		background: #2E3436;
+		border-bottom: 1px solid #e5e5e5;
+		position: relative;
+	}
+	
+    #content{
+        margin: 5% 36% 0%;
+        color: rgb(68, 68, 68);
+        font-family: Helvetica, sans-serif;
+        align: left;
+    }
+    	
+   	fieldset{
+    	background-color: #F1F1F1;
+    	box-shadow: 2px 2px 5px rgb(255, 255, 255) inset;
+    	text-shadow: 0px 1px 0px rgb(255, 255, 255)
+    	border: 1px solid rgb(170, 170, 170);
+    	border-radius: 2px;
+    	padding: 1.5em;
+    	margin: 0em;
+    }
+    	
+    legend{
+    	color: rgb(68, 68, 68);
+    	background-color: rgb(255, 255, 255);
+		box-shadow: 3px 3px 15px rgb(187, 187, 187);
+		border: 1px solid rgb(170, 170, 170);
+		border-radius: 1px;
+		font-weight: bold;
+		padding: 2px 10px;
+		font-size: 15px;
+    }
+
+    input[type=submit], input[type=reset]{	
+    	padding: 4px 9px;
+    	font-weight: bold;
+    	font-size:14px;
+    	border-radius: 2px;
+    	color: rgb(255, 255, 255);
+    	background-color: #4B8EFB;
+    	border: 1px solid #4B8EFB;
+    	
+    }
+
+    input[type=submit]:hover, input[type=reset]:hover{	
+    	padding: 4px 9px;
+    	font-weight: bold;
+    	font-size:14px;
+    	border-radius: 2px;
+    	color: rgb(255, 255, 255);
+    	background-color: rgb(52, 122, 232);
+    	border: 1px solid rgb(41, 88, 178);
+    	
+    }
+
+    input[type=text], input[type=password]{
+    	box-shadow: 0px 1px 2px rgb(221, 221, 221);
+    	padding: 5px;
+    	margin: 5px;
+    	border-radius: 1px;
+    	border: 1px solid rgb(170, 170, 170);
+    }
+
+
+    input[type=text]:hover, input[type=password]:hover{
+    	box-shadow: 0px 1px 2px rgb(221, 221, 221);
+    	padding: 5px;
+    	margin: 5px;
+    	border-radius: 1px;
+    	border: 1px solid rgb(120, 120, 120);
+    }
+
+    select{
+    	box-shadow: 0px 1px 2px rgb(221, 221, 221);
+    	padding: 5px;
+    	margin: 1px;
+    	border-radius: 1px;
+    	border: 1px solid rgb(170, 170, 170);
+    }
+
+    label {
+		width:10em;
+		float:left;
+		font-size: 15px;
+		font-weight: bolder;
+	}
+
+	.button{
+		position: relative;
+		margin: 0% 0% 0% 42%;
+	}
+	
+    h1{
+    	font-size: 24px;
+       	font-weight: bold;
+    	text-align: center;
+    }
+
+    p{
+        margin-top: 0.25em;
+        margin-bottom: 0.5em;    
+    }
+
+
+	i{
+		color: #4B8EFB;
+	}
+	
+	a{
+		text-decoration: none;
+	}
+	
+
+	.wrapper {
+		position: relative;
+		min-height: 100%;
+	}
+	
+
+	
+	.logo{
+		margin: 1px 0px 0px;
+		position:relative;
+		top:7px;
+		left: 70px;
+		height: 72px;
+	}
+	
+
+	.footer-bar {
+		position: absolute;
+		background-color: #2E3436;
+		bottom: 0;
+		height: 50px;
+		width: 100%;
+		border-top: 1px solid #e5e5e5;
+		overflow: hidden;
+	}
+	
+	
+	.signup-button, .logout-button{
+		margin: 20px 20px 0px;
+		color: #fff;
+		position:relative;
+        width:30%;
+		top: -25px;
+		left: 530px;
+		font-family: sans-serif;
+	}
+	
+    
+	.signup-button a, .logout-button a{
+		margin: 0 0 0 1em;
+		font-family: sans-serif;
+		font-size: 13px;
+		font-weight: normal;
+	}
+
+    .signup-button-red, .logout-button-red{
+		border: 1px solid transparent;
+		border-radius: 2px;
+		color: #fff;
+		text-shadow: 1px rgba(0,0,0,0.1);
+		text-transform: uppercase;
+		background-color: #D34836;
+		padding: 4px 12px;
+
+    }
+
+    .signup-button-red:hover, .logout-button-red:hover{
+		border: 1px solid transparent;
+		border-radius: 2px;
+		color: #fff;
+		text-shadow: 1px rgba(0,0,0,0.1);
+		text-transform: uppercase;
+		background-color: rgb(197, 55, 39);
+		padding: 4px 12px;
+
+    }
+    
+    .footer-content{
+    	text-align: center;
+    	color: #fff;
+    	font-size: 12px;
+    	font-family: sans-serif;
+    }
+
+    h2{
+        font-size: 22px;
+        font-weight: 300;
+        padding-top: 1em;
+        padding-bottom: 0.25em;
+        
+    }
+    .success1{
+        position: relative;
+        width: 50%;
+        left: 75px;    
+    }
+    
+    .signupdb{
+    	padding: 3px 8px;
+    	font-weight: normal;
+    	font-size:14px;
+    	border-radius: 2px;
+    	color: white;
+    	background-color: #4B8EFB;
+    	border: 1px solid #4B8EFB;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	
+    }
+    
+    .signupdb:hover{
+    	padding: 3px 8px;
+    	font-weight: normal;
+    	font-size:14px;
+    	border-radius: 2px;
+    	color: rgb(255, 255, 255);
+    	background-color: rgb(52, 122, 232);
+    	border: 1px solid rgb(41, 88, 178);
+    	text-decoration: none;
+    	text-transform: uppercase;
+    }
+    
+    
