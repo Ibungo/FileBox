@@ -39,7 +39,7 @@
 		header("location: ./login_success.php");
 	}
 	else {
-		echo "Wrong Username or Password";
+		echo "Incorrect Username or Password";
 	}
 
 ?>
