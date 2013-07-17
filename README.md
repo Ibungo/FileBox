@@ -1,4 +1,4 @@
 FileBox
 =======
 
-Upload and share any types of files.
+Filebox(in process, pre-alpha)
